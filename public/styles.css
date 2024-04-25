@@ -728,7 +728,6 @@ textarea {
 .sogl {
   background-color: #8ba7d3;
   width: 100vw;
-  height: 3vh;
 }
 
 
@@ -1066,234 +1065,918 @@ body {
     width: 27vw;
     height: 16vh
   }
+
   .text_image_3 {
     font-family: "Jost", sans-serif;
     width: 51vw;
     margin-left: 6vw;
     font-size: 16px;
     margin-right: 1vw;
-}
-.text_sad_line {
-  font-size: 31px;
-  text-align: right;
-  width: 61vw;
-  margin-right: 8vw;
-  font-family: "Bad Script", cursive;
-  margin-top: 10vw;
-}
-.subtext_sad_line {
-  font-size: 16px;
-  text-align: right;
-  font-family: "Jost", sans-serif;
-}
-.text_title {
-  font-size: 37px;
-  margin-left: 31vw;
-  margin-top: 4vh;
-  font-family: "Bad Script", cursive;
-}
-.grup_text_title {
-  display: flex;
-  margin-right: 3vw;
-  position: relative;
-  margin-top: 3vh;
-}
-.image_2 {
-  margin-left: 3vw;
-  box-shadow: 7px -7px 1px rgb(198, 191, 206);
-  border-radius: 15px;
-  width: 27vw;
-}
-.about_text_2 {
-  font-size: 15px;
-  font-family: "Jost", sans-serif;
-  width: 43vw;
-  margin-left: 8vw;
-}
-.about_text_1 {
-  font-size: 15px;
-  font-family: "Jost", sans-serif;
-  margin-left: 3vw;
-}
-.if_you {
-  font-size: 27px;
-  font-family: "Bad Script", cursive;
-  margin-left: 14vw;
-  margin-top: 12vh;
-}
-.your_requests {
-  font-size: 15px;
-  font-family: "Bad Script", cursive;
-  margin-top: 10vh;
-  margin-left: 1vw;
-}
-.about_you {
-  font-size: 35px;
-  font-family: "Bad Script", cursive;
-  margin-top: 4vh;
-  margin-left: 6vw;
-}
-.box_choice {
-  position: absolute;
-  width: 38vw;
-  z-index: 2;
-  background-color: #ebe1e1;
-  border-radius: 20px;
-  margin-left: 4vw;
-  margin-top: 8vh;
-  box-shadow: 6px 3px 4px gray;
-  font-size: 16px;
-  font-family: "Jost", sans-serif;
-}
-.box_choice_text {
-  position: absolute;
-  width: 66vw;
-  background-color: #cbd5ca;
-  margin-left: 30vw;
-  margin-top: 10vh;
-  border-radius: 20px;
-  box-shadow: 6px 3px 4px gray;
-  font-family: "Jost", sans-serif;
-  font-size: 16px;
-  z-index: 1;
-}
-.the_method {
-  font-size: 28px;
-  font-family: "Bad Script", cursive;
-  margin-left: 3vw;
-}
-.the_method_box_text_1 {
-  background-color: #f4eeee;
-  border-radius: 69px;
-  margin-top: 3vh;
-  margin-left: 4vw;
-  position: absolute;
-  box-shadow: 9px 7px 0px rgb(198, 191, 206);
-}
-.the_method_box_text_2 {
-  background-color: #f4eeee;
-  border-radius: 69px;
-  margin-top: 11vh;
-  margin-left: 17vw;
-  position: absolute;
-  box-shadow: 9px 7px 0px rgb(226, 182, 182);
-}
-.the_method_box_text_3 {
-  box-shadow: -9px 7px 0px rgb(192, 206, 191);
-  background-color: #f4eeee;
-  border-radius: 69px;
-  margin-top: 14vh;
-  margin-left: 5vw;
-  position: absolute;
-}
-.gipnoz_1 {
-  font-size: 15px;
-  font-family: "Jost", sans-serif;
-  width: 74vw;
-  padding: 1.5em;
-}
-.gipnoz_2 {
-  font-size: 16px;
-  font-family: "Jost", sans-serif;
-  width: 74vw;
-  padding: 1.5em;
-}
-.gipnoz_3 {
-  font-size: 16px;
-  font-family: "Jost", sans-serif;
-  padding: 1.5em;
-  width: 74vw;
-}
-.mt {
-  margin-top: 4vh;
-}
-.WEFY_sText {
-  font-family: "Bad Script", cursive;
-  font-size: 16px;
-}
-.WEFY {
-  font-family: "Bad Script", cursive;
-  font-size: 33px;
-}
-.girl_text {
-  font-size: 16px;
-  font-family: "Jost", sans-serif;
-}
-.price {
-  font-size: 37px;
-  font-family: "Bad Script", cursive;
-  margin-left: 5vw;
-  margin-top: 13vh;
-}
-.textEducation {
-  font-size: 19px;
-}
-.education {
-  font-size: 36px;
-  font-family: "Bad Script", cursive;
-  margin-left: 4vw;
-  margin-top: 10vh;
-}
-.bacground_forma {
-  background-color: #adbbdd;
-  width: 100vw;
-  position: absolute;
-  margin-top: 3vh;
-}
-.volnaC {
-  background-image: url(./images/volna.png);
-  width: 100vw;
-  height: 18vh;
-  margin-top: 14vh;
-}
-.text_sogl {
-  padding-top: 0.3vh;
-  display: flex;
-  justify-content: center;
-  font-size: 17px;
-  font-family: "Jost", sans-serif;
-}
-.how_to_contact {
-  font-family: "Jost", sans-serif;
-  font-size: 31px;
-  color: white;
-  margin-left: 8vw;
-  padding-top: 4vh;
-}
-.contact_text {
-  color: white;
-  margin-right: 8vw;
-  padding-top: 4vh;
-  font-family: "Jost", sans-serif;
-  font-size: 31px;
-}
-input, textarea {
-  background: none;
-  border: none;
-  font-size: 14px;
-  color: white;
-}
-.otpr {
-  font-size: 19px;
-  color: white;
-  font-family: "Jost", sans-serif;
-}
+  }
+
+  .text_sad_line {
+    font-size: 31px;
+    text-align: right;
+    width: 61vw;
+    margin-right: 8vw;
+    font-family: "Bad Script", cursive;
+    margin-top: 10vw;
+  }
+
+  .subtext_sad_line {
+    font-size: 16px;
+    text-align: right;
+    font-family: "Jost", sans-serif;
+  }
+
+  .text_title {
+    font-size: 37px;
+    margin-left: 31vw;
+    margin-top: 4vh;
+    font-family: "Bad Script", cursive;
+  }
+
+  .grup_text_title {
+    display: flex;
+    margin-right: 3vw;
+    position: relative;
+    margin-top: 3vh;
+  }
+
+  .image_2 {
+    margin-left: 3vw;
+    box-shadow: 7px -7px 1px rgb(198, 191, 206);
+    border-radius: 15px;
+    width: 27vw;
+  }
+
+  .about_text_2 {
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    width: 43vw;
+    margin-left: 8vw;
+  }
+
+  .about_text_1 {
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    margin-left: 3vw;
+  }
+
+  .if_you {
+    font-size: 27px;
+    font-family: "Bad Script", cursive;
+    margin-left: 14vw;
+    margin-top: 12vh;
+  }
+
+  .your_requests {
+    font-size: 15px;
+    font-family: "Bad Script", cursive;
+    margin-top: 10vh;
+    margin-left: 1vw;
+  }
+
+  .about_you {
+    font-size: 35px;
+    font-family: "Bad Script", cursive;
+    margin-top: 4vh;
+    margin-left: 6vw;
+  }
+
+  .box_choice {
+    position: absolute;
+    width: 38vw;
+    z-index: 2;
+    background-color: #ebe1e1;
+    border-radius: 20px;
+    margin-left: 4vw;
+    margin-top: 8vh;
+    box-shadow: 6px 3px 4px gray;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .box_choice_text {
+    position: absolute;
+    width: 66vw;
+    background-color: #cbd5ca;
+    margin-left: 30vw;
+    margin-top: 10vh;
+    border-radius: 20px;
+    box-shadow: 6px 3px 4px gray;
+    font-family: "Jost", sans-serif;
+    font-size: 16px;
+    z-index: 1;
+  }
+
+  .the_method {
+    font-size: 28px;
+    font-family: "Bad Script", cursive;
+    margin-left: 3vw;
+  }
+
+  .the_method_box_text_1 {
+    background-color: #f4eeee;
+    border-radius: 69px;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    position: absolute;
+    box-shadow: 9px 7px 0px rgb(198, 191, 206);
+  }
+
+  .the_method_box_text_2 {
+    background-color: #f4eeee;
+    border-radius: 69px;
+    margin-top: 11vh;
+    margin-left: 17vw;
+    position: absolute;
+    box-shadow: 9px 7px 0px rgb(226, 182, 182);
+  }
+
+  .the_method_box_text_3 {
+    box-shadow: -9px 7px 0px rgb(192, 206, 191);
+    background-color: #f4eeee;
+    border-radius: 69px;
+    margin-top: 14vh;
+    margin-left: 5vw;
+    position: absolute;
+  }
+
+  .gipnoz_1 {
+    font-size: 15px;
+    font-family: "Jost", sans-serif;
+    width: 74vw;
+    padding: 1.5em;
+  }
+
+  .gipnoz_2 {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    width: 74vw;
+    padding: 1.5em;
+  }
+
+  .gipnoz_3 {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    padding: 1.5em;
+    width: 74vw;
+  }
+
+  .mt {
+    margin-top: 4vh;
+  }
+
+  .WEFY_sText {
+    font-family: "Bad Script", cursive;
+    font-size: 16px;
+  }
+
+  .WEFY {
+    font-family: "Bad Script", cursive;
+    font-size: 33px;
+  }
+
+  .girl_text {
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .price {
+    font-size: 37px;
+    font-family: "Bad Script", cursive;
+    margin-left: 5vw;
+    margin-top: 13vh;
+  }
+
+  .textEducation {
+    font-size: 19px;
+  }
+
+  .education {
+    font-size: 36px;
+    font-family: "Bad Script", cursive;
+    margin-left: 4vw;
+    margin-top: 10vh;
+  }
+
+  .bacground_forma {
+    background-color: #adbbdd;
+    width: 100vw;
+    position: absolute;
+    margin-top: 3vh;
+  }
+
+  .volnaC {
+    background-image: url(./images/volna.png);
+    width: 100vw;
+    height: 18vh;
+    margin-top: 14vh;
+  }
+
+  .text_sogl {
+    padding-top: 0.3vh;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .how_to_contact {
+    font-family: "Jost", sans-serif;
+    font-size: 31px;
+    color: white;
+    margin-left: 8vw;
+    padding-top: 4vh;
+  }
+
+  .contact_text {
+    color: white;
+    margin-right: 8vw;
+    padding-top: 4vh;
+    font-family: "Jost", sans-serif;
+    font-size: 31px;
+  }
+
+  input,
+  textarea {
+    background: none;
+    border: none;
+    font-size: 14px;
+    color: white;
+  }
+
+  .otpr {
+    font-size: 19px;
+    color: white;
+    font-family: "Jost", sans-serif;
+  }
 
 
 
 
-
-
-
-
-
 }
 
 
+@media (max-width: 420px) {
 
 
+  .contact,
+  .method,
+  .session,
+  .a_education {
+    display: none;
+  }
 
-@media (max-width: 425px) {
+
+  .logo_img {
+    margin-top: 13vh;
+    width: 26vw;
+  }
+
+
+  .title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    width: 60vw;
+    height: 19vh;
+    margin-left: 20vw;
+    text-align: center;
+  }
+
+  .image_2 {
+    margin-left: 3vw;
+    box-shadow: 9px -6px 1px rgb(198, 191, 206);
+    border-radius: 17px;
+    width: 33vw;
+  }
+
+  .image_2_BOX {
+    display: block;
+    height: 35vh;
+  }
+
+  .text_line {
+    height: 31vh;
+    padding-left: 1.5em;
+    font-family: "Jost", sans-serif;
+    margin-left: 4vw;
+    width: 63vw;
+    font-size: 10px;
+    border: none;
+    margin-top: 0;
+  }
+
+  .sad_line {
+    display: none;
+  }
+
+  .box {
+    width: 63vw;
+    margin-top: 3vh;
+    margin-left: 5vw;
+  }
+
+  .box1 {
+    width: 63vw;
+    margin-left: 5vw;
+    border-left: 1px solid;
+  }
+
+  .choice_2 {
+    padding: 1em;
+    margin-top: 1vh;
+  }
+
+  .gipnoz_1 {
+    font-size: 10px;
+    font-family: "Jost", sans-serif;
+    width: 49vw;
+    padding: 2.5em;
+  }
+
+  .gipnoz_2 {
+    font-size: 10px;
+    font-family: "Jost", sans-serif;
+    width: 49vw;
+    padding: 2.5em;
+  }
+
+  .gipnoz_3 {
+    font-size: 10px;
+    font-family: "Jost", sans-serif;
+    padding: 2.5em;
+    width: 44vw;
+  }
+
+  .the_method_box_text_3 {
+    box-shadow: -7px 7px 0px rgb(192, 206, 191);
+    background-color: #E3E3E3;
+    border-radius: 69px;
+    margin-top: 15vh;
+    margin-left: 9vw;
+  }
+
+  .the_method_box_text_2 {
+    border-radius: 69px;
+    margin-top: 10vh;
+    margin-left: 30vw;
+    box-shadow: 0px 13px 0px rgb(226, 182, 182);
+    background-color: #EAEAEA;
+  }
+
+  .the_method_box_text_1 {
+    background-color: #EDDADA;
+    border-radius: 69px;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    box-shadow: 0px 10px 0px rgb(198, 191, 206);
+  }
+
+  .the_method_flex {
+    display: flex;
+    margin-top: 34vh;
+  }
+
+  .how_to_contact {
+    display: none;
+  }
+
+  .contact_text {
+    display: none;
+  }
+
+  .sign_up {
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: rgb(255, 255, 255, 0.4);
+    margin-top: 3vh;
+  }
+
+  .title0 {
+    font-size: 30px;
+  }
+
+  .text_sad_line {
+    font-size: 19px;
+    text-align: left;
+    width: 69vw;
+    margin-right: 8vw;
+    font-family: "Bad Script", cursive;
+    margin-top: 5vh;
+  }
+
+  .subtext_sad_line {
+    font-size: 13px;
+    text-align: left;
+    font-family: "Jost", sans-serif;
+  }
+
+  .my_title {
+    width: 74vw;
+  }
+
+  .text_title {
+    font-size: 27px;
+    margin-left: 31vw;
+    margin-top: 2vh;
+    font-family: "Bad Script", cursive;
+  }
+
+  .zap {
+    padding-top: 0.2em;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    padding-bottom: 0.29em;
+    font-size: 21px;
+    color: white;
+    font-family: "Jost", sans-serif;
+  }
+
+  .image_3_background {
+    background-color: #81a0d0;
+    width: 39vw;
+    height: 22vh;
+    margin-top: 2vh;
+    margin-left: 8vw;
+    border-radius: 6px;
+  }
+
+  .img_3 {
+    position: absolute;
+    margin-left: 6vw;
+    margin-top: 3vh;
+    width: 40vw;
+    height: 22vh;
+  }
+
+
+  .mText_line_1 {
+    display: block;
+    width: 39vw;
+    margin-left: 6vw;
+  }
+
+  .text_line_1 {
+    display: block;
+    font-family: "Jost", sans-serif;
+    font-size: 10px;
+  }
+
+  .mText_line_2 {
+    display: block;
+    margin-left: 4vw;
+    margin-top: -1vh;
+    width: 87vw;
+  }
+
+  .text_line {
+    display: none;
+  }
+
+
+  .text_line_2 {
+    display: block;
+    font-family: "Jost", sans-serif;
+    font-size: 10px;
+  }
+
+  .text_image_3 {
+    font-family: "Jost", sans-serif;
+    width: 51vw;
+    margin-left: 6vw;
+    font-size: 10px;
+  }
+
+  .image3_line {
+    display: none;
+  }
+
+  .class_amg4 {
+    margin-top: 8vh;
+    width: 100vw;
+    background: url(./images/will-van-wingerden-87463-e1549022529660\ 1.png) center / cover no-repeat;
+    height: 20vh;
+  }
+
+  .grup_text_title {
+    display: flex;
+    margin-right: 3vw;
+    position: relative;
+    height: 27vh;
+  }
+
+  .box_you {
+    display: block;
+  }
+
+  .about_you {
+    font-size: 26px;
+    font-family: "Bad Script", cursive;
+    margin-left: 37vw;
+  }
+
+  .your_requests {
+    font-size: 11px;
+    font-family: "Bad Script", cursive;
+    margin-left: 35vw;
+    margin-top: -2vh;
+  }
+
+  .if_you {
+    font-size: 26px;
+    font-family: "Bad Script", cursive;
+    margin-left: 31vw;
+    margin-top: 0;
+  }
+
+  .about_text_1 {
+    font-size: 10px;
+    font-family: "Jost", sans-serif;
+    margin-left: 3vw;
+    width: 81vw;
+  }
+
+  .about_text_2 {
+    font-size: 10px;
+    font-family: "Jost", sans-serif;
+    width: 87vw;
+    margin-left: 3vw;
+    margin-top: 2.2vh;
+  }
+
+  .about_text_flex {
+    display: block;
+    margin-top: 3vh;
+  }
+
+  .choice_1 {
+    margin-top: 1vh;
+    margin-left: 3vh;
+    padding: 0.2em;
+  }
+
+  .box_choice {
+    position: absolute;
+    width: 60vw;
+    z-index: 2;
+    background-color: #ebe1e1;
+    border-radius: 20px;
+    margin-left: 16vw;
+    margin-top: 7vh;
+    box-shadow: 3px 3px 4px gray;
+    font-size: 10px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .box_choice_text {
+    position: absolute;
+    width: 94vw;
+    background-color: #cbd5ca;
+    margin-left: 2vw;
+    margin-top: 10vh;
+    border-radius: 20px;
+    box-shadow: 6px 3px 4px gray;
+    font-family: "Jost", sans-serif;
+    font-size: 10px;
+    z-index: 1;
+  }
+
+  .line_choise {
+    margin-left: 6vw;
+    width: 89vw;
+    border-bottom: 1px solid;
+    margin-top: 30vh;
+    position: absolute;
+  }
+
+  .the_method_line {
+    display: none;
+  }
+
+  .the_method {
+    font-size: 26px;
+    font-family: "Bad Script", cursive;
+    margin-left: 6vw;
+  }
+
+  .crivaya_line {
+    display: none;
+  }
+
+  .box_relaative {
+    display: block;
+    margin-top: 13vh;
+    width: 93vw;
+    margin-left: 4vw;
+    border-top: 1px solid;
+    padding-top: 2vh;
+  }
+
+  .WEFY {
+    font-family: "Bad Script", cursive;
+    font-size: 26px;
+    text-align: right;
+  }
+
+  .WEFY_sText {
+    font-family: "Bad Script", cursive;
+    font-size: 12px;
+  }
+
+  .mt {
+    margin-top: -1vh;
+    text-align: right;
+  }
+
+  .girl_text_box {
+    display: none;
+  }
+
+  .girl_text_box_m {
+    display: block;
+  }
+
+  .girl_text_1_M {
+    font-family: "Jost", sans-serif;
+    font-size: 9px;
+    margin-left: 3vw;
+    margin-top: 4vh;
+  }
+
+  .girl_text_2_M {
+    display: block;
+    font-family: "Jost", sans-serif;
+    font-size: 9px;
+    margin-left: 13vw;
+    margin-top: 1vh;
+  }
+
+  .girl {
+    margin-top: 0vh;
+    margin-left: 3vw;
+    height: 17vh;
+  }
+
+  .girl_text_flex {
+    display: flex;
+    margin-top: 2vh;
+  }
+
+  .volna {
+    margin-top: 14.3vh;
+    width: 100vw;
+    height: 8vh;
+  }
+
+  .price {
+    font-size: 26px;
+    font-family: "Bad Script", cursive;
+    margin-left: 22vw;
+    margin-top: 4vh;
+  }
+
+  .blok_backgound_1 {
+    width: 91vw;
+    height: 26vh;
+    background-color: #ebe0e0;
+    border-radius: 30px;
+    position: absolute;
+    margin-left: 4vw;
+    box-shadow: 10px 0px 1px rgb(128, 160, 208);
+  }
+
+  .blok_backgound_2 {
+    margin-left: 4vw;
+    width: 92vw;
+    height: 26vh;
+    background-color: #ebe0e0;
+    border-radius: 30px;
+    position: absolute;
+    margin-top: 33vh;
+    box-shadow: 10px 0px 1px rgb(226, 199, 202);
+  }
+
+  .V_line {
+    position: absolute;
+    height: 0vh;
+    border-top: 1px solid;
+    margin-left: 5vw;
+    margin-top: 65vh;
+    width: 92vw;
+  }
+
+  .education {
+    font-size: 26px;
+    font-family: "Bad Script", cursive;
+    margin-left: 25vw;
+    margin-top: 48vh;
+  }
+
+  .textEducation {
+    font-size: 10px;
+  }
+
+  .year_line {
+    margin-top: 5.4vh;
+    margin-left: 4vw;
+    height: 20vh;
+  }
+
+  .bacground_forma {
+    background-color: #adbbdd;
+    width: 100vw;
+    position: absolute;
+    margin-top: 8vh;
+  }
+
+  .forma {
+    box-shadow: 5px 5px 15px grey;
+    background-color: #8ba7d3;
+    width: 94vw;
+    height: 56vh;
+    margin-left: 3vw;
+    border-radius: 26px;
+    margin-top: 19vh;
+  }
+
+  .form_name {
+    border-bottom: white 1px solid;
+    width: 50vw;
+    margin-left: 0vw;
+    margin-top: 2vh;
+  }
+
+  .form_phone {
+    border-bottom: white 1px solid;
+    margin-left: 0vw;
+    width: 20vw;
+  }
+
+  .form_email {
+    border-bottom: white 1px solid;
+    margin-left: 2vw;
+    width: 28vw;
+  }
+
+  .form_comment {
+    border-bottom: white 1px solid;
+    width: 50vw;
+    margin-left: 0vw;
+    margin-top: 9vh;
+  }
+
+  .forma_box_flex {
+    display: flex;
+    margin-top: 11vh;
+  }
+
+  .button_zap {
+    width: 39vw;
+    height: 6.3vh;
+    margin-left: 24vw;
+    margin-top: 8vh;
+    border-radius: 27px;
+    background-color: rgba(255, 255, 255, 0.31);
+    border: none;
+  }
+
+  .otpr {
+    font-size: 10px;
+    color: white;
+    font-family: "Jost", sans-serif;
+  }
+
+  .info {
+    background-color: #9bb6e0;
+    width: 30vw;
+    height: 32vh;
+    margin-left: 16vw;
+    margin-top: 7vh;
+    border-radius: 20px;
+    border: 1px solid white;
+  }
+
+  .logo_form {
+    margin-left: 9vw;
+    margin-top: 2vh;
+    width: 13vw;
+  }
+
+  .text_sogl {
+    padding-top: 0.3vh;
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .blok_text_1 {
+    display: none;
+  }
+
+  .blok_text2 {
+    display: none;
+  }
+
+  .list_1 {
+    display: none;
+  }
+
+  .list_2 {
+    display: none;
+  }
+
+  input,
+  textarea {
+    background: none;
+    border: none;
+    font-size: 10px;
+    color: white;
+  }
+
+  .shishka {
+    display: none;
+  }
+
+  .educationGrup {
+    display: flex;
+    margin-top: 9vh;
+  }
+
+  .sogl {
+    background-color: #8ba7d3;
+    width: 100vw;
+    margin-top: -1vh;
+  }
+
+  .svc_messeng {
+    margin-left: 72vw;
+    margin-top: 21vh;
+    height: 11vh;
+    width: 23vw;
+  }
+
+  .cist {
+    margin-top: 15vh;
+    margin-left: 4vw;
+    height: 17vh;
+    width: 19vw;
+  }
+
+  .svg_boshka {
+    margin-left: 76vw;
+    margin-top: 10vh;
+    width: 17vw;
+    height: 16vh;
+  }
+
+  .grup {
+    display: none;
+  }
+
+  .header__burger-btn {
+    display: block;
+  }
+
+  .menu {
+    position: absolute;
+    left: -112.5vw;
+    top: 0;
+    width: 100vw;
+    background-color: #adbbdd;
+    padding: 65px 20px 20px 20px;
+    transition: transform .5s;
+  }
+
+  .menu__list {
+    display: block;
+  }
+
+  .menu__link {
+    color: white;
+    font-size: 21px;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .header.open .menu {
+    transform: translateX(100%);
+  }
+
+  .text_main {
+    color: white;
+  }
+
+  .header__container {
+    display: block;
+  }
+}
+
+@media (max-width: 350px) {
 
 
   .contact,
@@ -1365,17 +2048,17 @@ input, textarea {
     margin-top: 1vh;
   }
 
-  .gipnoz_1 {
+  .gipnoz_2 {
     font-size: 10px;
     font-family: "Jost", sans-serif;
-    width: 49vw;
+    width: 52vw;
     padding: 2.5em;
-  }
+}
 
   .gipnoz_2 {
     font-size: 10px;
     font-family: "Jost", sans-serif;
-    width: 49vw;
+    width: 54vw;
     padding: 2.5em;
   }
 
@@ -1392,8 +2075,7 @@ input, textarea {
     border-radius: 69px;
     margin-top: 13vh;
     margin-left: 9vw;
-
-  }
+}
 
   .the_method_box_text_2 {
     border-radius: 69px;
@@ -1401,7 +2083,7 @@ input, textarea {
     margin-left: 30vw;
     box-shadow: 0px 13px 0px rgb(226, 182, 182);
     background-color: #EAEAEA;
-}
+  }
 
   .the_method_box_text_1 {
     background-color: #EDDADA;
@@ -1495,11 +2177,11 @@ input, textarea {
     margin-left: 6vw;
   }
 
-  .text_line_1 {
+  .mText_line_1 {
     display: block;
-    font-family: "Jost", sans-serif;
-    font-size: 10px;
-  }
+    width: 44vw;
+    margin-left: 6vw;
+}
 
   .mText_line_2 {
     display: block;
@@ -1885,23 +2567,22 @@ input, textarea {
   .sogl {
     background-color: #8ba7d3;
     width: 100vw;
-    height: 3vh;
     margin-top: -1vh;
   }
 
   .svc_messeng {
     margin-left: 72vw;
-    margin-top: 21vh;
+    margin-top: 22vh;
     height: 11vh;
     width: 23vw;
-  }
+}
 
   .cist {
-    margin-top: 24vh;
+    margin-top: 18vh;
     margin-left: 4vw;
     height: 17vh;
     width: 19vw;
-  }
+}
 
   .svg_boshka {
     margin-left: 76vw;
