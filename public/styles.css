@@ -46,7 +46,7 @@ input,
 textarea {
   background: none;
   border: none;
-  font-size: 16px;
+  font-size: 23px;
   color: white;
 }
 
@@ -137,7 +137,7 @@ textarea {
 }
 
 .title0 {
-  font-size: 75px;
+  font-size: 80px;
 }
 
 .sign_up {
@@ -164,8 +164,9 @@ textarea {
   font-family: "Jost", sans-serif;
 }
 
+
+
 .logo_img {
-  margin-left: 46vw;
   margin-top: 21vh;
 }
 
@@ -185,9 +186,7 @@ textarea {
   z-index: 1;
 } */
 
-.text_line {
-  display: none;
-}
+
 
 .image_2 {
   margin-left: 3vw;
@@ -275,7 +274,7 @@ textarea {
 }
 
 .my_title {
-  width: 47vw;
+  width: 60vw;
 }
 
 .class_amg4 {
@@ -394,16 +393,6 @@ textarea {
   border-bottom: 1px solid;
 }
 
-/* .the_method_box_bacground_1 {
-  width: 77vw;
-  height: 19vh;
-  background-color: #c6bfce;
-  border-radius: 69px;
-  margin-top: 4vh;
-  margin-left: 5.1vw;
-  position: absolute ;
-} */
-
 .the_method_box_text_1 {
   background-color: #f4eeee;
   border-radius: 69px;
@@ -430,16 +419,6 @@ textarea {
   width: 74vw;
   padding: 1.5em;
 }
-
-/* .the_method_box_bacground_2 {
-  width: 77vw;
-  height: 23vh;
-  background-color: #e2b6b6;
-  border-radius: 69px;
-  margin-top: 15vh;
-  margin-left: 21vw;
-  position: absolute;
-} */
 
 .the_method_box_text_2 {
 
@@ -476,16 +455,6 @@ textarea {
   width: 11vw;
 }
 
-/* .the_method_box_bacground_3 {
-  width: 80vw;
-  height: 19vh;
-  background-color: #c0cebf;
-  border-radius: 69px;
-  margin-top: 14vh;
-  margin-left: 3.1vw;
-  position: absolute;
-} */
-
 .the_method_box_text_3 {
   box-shadow: -16px 13px 0px rgb(192, 206, 191);
   background-color: #f4eeee;
@@ -494,8 +463,6 @@ textarea {
   margin-left: 5vw;
   position: absolute;
 }
-
-
 
 .the_method_box_3 {
   position: relative;
@@ -654,7 +621,8 @@ textarea {
 .year_line {
   margin-top: 5.4vh;
   margin-left: 4vw;
-  height: 19vh;
+  height: 32vh;
+  width: 0.78vw;
 }
 
 .shishka {
@@ -669,7 +637,6 @@ textarea {
   box-shadow: 5px 5px 15px grey;
   background-color: #8ba7d3;
   width: 80vw;
-  height: 52vh;
   margin-left: 10vw;
   border-radius: 26px;
   margin-top: 24vh;
@@ -688,22 +655,23 @@ textarea {
 
 .how_to_contact {
   font-family: "Jost", sans-serif;
-  font-size: 46px;
+  font-size: 50px;
   color: white;
-  margin-left: 13vw;
+  margin-left: 8vw;
   padding-top: 4vh;
 }
 
 .flex_contact {
   display: flex;
+  justify-content: space-between
 }
 
 .contact_text {
   color: white;
-  margin-left: 17vw;
+  margin-right: 10vw;
   padding-top: 4vh;
   font-family: "Jost", sans-serif;
-  font-size: 46px;
+  font-size: 50px;
 }
 
 .button_zap {
@@ -718,6 +686,7 @@ textarea {
 
 .info_flex {
   display: flex;
+  height: 47vh;
 }
 
 .info {
@@ -745,13 +714,14 @@ textarea {
 .volna {
   margin-top: 4vh;
   width: 100vw;
+  height: 16vh;
 }
 
 .text_sogl {
   padding-top: 0.3vh;
   display: flex;
   justify-content: center;
-  font-size: 24px;
+  font-size: 23px;
   font-family: "Jost", sans-serif;
 }
 
@@ -770,6 +740,17 @@ textarea {
 textarea:focus,
 input:focus {
   outline: none;
+}
+
+.text_line {
+  height: 31vh;
+  padding-left: 1.5em;
+  font-family: "Jost", sans-serif;
+  margin-left: 4vw;
+  width: 63vw;
+  font-size: 26px;
+  border: none;
+  margin-top: 6vh;
 }
 
 
@@ -801,7 +782,518 @@ input:focus {
   display: none;
 }
 
-@media (max-width: 350px) {
+.girl_text_2_M {
+  display: none;
+}
+
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  font-family: Arial, Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  box-shadow: 0px 4px 21px -1px rgba(34, 60, 80, );
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: none;
+}
+
+.header__burger-btn {
+  display: none;
+  position: relative;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: transparent;
+  z-index: 2;
+}
+
+.header__burger-btn span {
+  position: absolute;
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  left: 5px;
+  transition: transform .5s, opacity .5s, background-color .5s;
+}
+
+.header__burger-btn span:nth-child(1) {
+  transform: translateY(-10px);
+}
+
+.header__burger-btn span:nth-child(3) {
+  transform: translateY(10px);
+}
+
+.header.open .header__burger-btn span {
+  background-color: white;
+}
+
+.header.open .header__burger-btn span:nth-child(1) {
+  transform: translateY(0) rotate(45deg);
+}
+
+.header.open .header__burger-btn span:nth-child(2) {
+  opacity: 0;
+}
+
+.header.open .header__burger-btn span:nth-child(3) {
+  transform: translateY(0) rotate(-45deg);
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+
+.menu__list {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu__item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.menu__link {
+  font-size: 16px;
+}
+
+.volnaC {
+  background-image: url(./images/volna.png);
+  width: 100vw;
+  height: 9vh;
+  margin-top: 14vh;
+
+}
+
+@media (max-width: 1440px) {
+
+  .choice_2 {
+    padding: 1em;
+    margin-top: 4vh;
+  }
+
+  .year_line {
+    margin-top: 5.4vh;
+    margin-left: 4vw;
+    height: 36vh;
+    width: 5.78vw;
+  }
+
+
+}
+
+@media (max-width: 1024px) {
+  .title {
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 7vh;
+  }
+
+  .title0 {
+    font-size: 57px;
+  }
+
+  .text_line {
+    height: 31vh;
+    padding-left: 1.5em;
+    font-family: "Jost", sans-serif;
+    margin-left: 4vw;
+    width: 63vw;
+    font-size: 22px;
+    border: none;
+    margin-top: 6vh;
+  }
+
+  .text_sad_line {
+    font-size: 49px;
+    text-align: right;
+    width: 61vw;
+    margin-right: 8vw;
+    font-family: "Bad Script", cursive;
+  }
+
+  .the_method {
+    font-size: 37px;
+    font-family: "Bad Script", cursive;
+    margin-left: 3vw;
+  }
+
+  .gipnoz_1 {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    width: 74vw;
+    padding: 1.5em;
+  }
+
+  .gipnoz_2 {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    width: 74vw;
+    padding: 1.5em;
+  }
+
+  .gipnoz_3 {
+    font-size: 20px;
+    font-family: "Jost", sans-serif;
+    padding: 1.5em;
+    width: 74vw;
+  }
+
+  .girl_text {
+    font-size: 21px;
+    font-family: "Jost", sans-serif;
+  }
+
+  .volnaC {
+    background-image: url(./images/volna.png);
+    width: 100vw;
+    height: 18vh;
+    margin-top: 14vh;
+  }
+
+  input,
+  textarea {
+    background: none;
+    border: none;
+    font-size: 18px;
+    color: white;
+  }
+
+  .contact_text {
+    color: white;
+    margin-right: 10vw;
+    padding-top: 4vh;
+    font-family: "Jost", sans-serif;
+    font-size: 41px;
+  }
+
+  .how_to_contact {
+    font-family: "Jost", sans-serif;
+    font-size: 41px;
+    color: white;
+    margin-left: 8vw;
+    padding-top: 4vh;
+  }
+
+}
+
+
+@media (max-width: 768px) {
+  .text {
+    color: white;
+    opacity: 1;
+    font-size: 20px;
+    padding-bottom: 0.1em;
+    font-family: "Jost", sans-serif;
+  }
+
+  .grup_sigen_up {
+    display: flex;
+    justify-content: center;
+    margin-top: 21vw;
+  }
+
+  .zap {
+    padding-top: 0.2em;
+    padding-left: 1.7em;
+    padding-right: 1.7em;
+    padding-bottom: 0.29em;
+    font-size: 29px;
+    color: white;
+    font-family: "Jost", sans-serif;
+  }
+
+  .title0 {
+    font-size: 39px;
+  }
+
+  .text_line {
+    height: 31vh;
+    padding-left: 1.5em;
+    font-family: "Jost", sans-serif;
+    margin-left: 4vw;
+    width: 63vw;
+    font-size: 18px;
+    border: none;
+    margin-top: 0vh;
+  }
+
+  .image_3_background {
+    background-color: #81a0d0;
+    width: 27vw;
+    height: 16vh;
+    margin-top: 5vh;
+    margin-left: 9vw;
+    border-radius: 9px;
+  }
+
+  .img_3 {
+    position: absolute;
+    margin-left: 8vw;
+    margin-top: 6vh;
+    width: 27vw;
+    height: 16vh
+  }
+  .text_image_3 {
+    font-family: "Jost", sans-serif;
+    width: 51vw;
+    margin-left: 6vw;
+    font-size: 16px;
+    margin-right: 1vw;
+}
+.text_sad_line {
+  font-size: 31px;
+  text-align: right;
+  width: 61vw;
+  margin-right: 8vw;
+  font-family: "Bad Script", cursive;
+  margin-top: 10vw;
+}
+.subtext_sad_line {
+  font-size: 16px;
+  text-align: right;
+  font-family: "Jost", sans-serif;
+}
+.text_title {
+  font-size: 37px;
+  margin-left: 31vw;
+  margin-top: 4vh;
+  font-family: "Bad Script", cursive;
+}
+.grup_text_title {
+  display: flex;
+  margin-right: 3vw;
+  position: relative;
+  margin-top: 3vh;
+}
+.image_2 {
+  margin-left: 3vw;
+  box-shadow: 7px -7px 1px rgb(198, 191, 206);
+  border-radius: 15px;
+  width: 27vw;
+}
+.about_text_2 {
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  width: 43vw;
+  margin-left: 8vw;
+}
+.about_text_1 {
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  margin-left: 3vw;
+}
+.if_you {
+  font-size: 27px;
+  font-family: "Bad Script", cursive;
+  margin-left: 14vw;
+  margin-top: 12vh;
+}
+.your_requests {
+  font-size: 15px;
+  font-family: "Bad Script", cursive;
+  margin-top: 10vh;
+  margin-left: 1vw;
+}
+.about_you {
+  font-size: 35px;
+  font-family: "Bad Script", cursive;
+  margin-top: 4vh;
+  margin-left: 6vw;
+}
+.box_choice {
+  position: absolute;
+  width: 38vw;
+  z-index: 2;
+  background-color: #ebe1e1;
+  border-radius: 20px;
+  margin-left: 4vw;
+  margin-top: 8vh;
+  box-shadow: 6px 3px 4px gray;
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+}
+.box_choice_text {
+  position: absolute;
+  width: 66vw;
+  background-color: #cbd5ca;
+  margin-left: 30vw;
+  margin-top: 10vh;
+  border-radius: 20px;
+  box-shadow: 6px 3px 4px gray;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  z-index: 1;
+}
+.the_method {
+  font-size: 28px;
+  font-family: "Bad Script", cursive;
+  margin-left: 3vw;
+}
+.the_method_box_text_1 {
+  background-color: #f4eeee;
+  border-radius: 69px;
+  margin-top: 3vh;
+  margin-left: 4vw;
+  position: absolute;
+  box-shadow: 9px 7px 0px rgb(198, 191, 206);
+}
+.the_method_box_text_2 {
+  background-color: #f4eeee;
+  border-radius: 69px;
+  margin-top: 11vh;
+  margin-left: 17vw;
+  position: absolute;
+  box-shadow: 9px 7px 0px rgb(226, 182, 182);
+}
+.the_method_box_text_3 {
+  box-shadow: -9px 7px 0px rgb(192, 206, 191);
+  background-color: #f4eeee;
+  border-radius: 69px;
+  margin-top: 14vh;
+  margin-left: 5vw;
+  position: absolute;
+}
+.gipnoz_1 {
+  font-size: 15px;
+  font-family: "Jost", sans-serif;
+  width: 74vw;
+  padding: 1.5em;
+}
+.gipnoz_2 {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  width: 74vw;
+  padding: 1.5em;
+}
+.gipnoz_3 {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+  padding: 1.5em;
+  width: 74vw;
+}
+.mt {
+  margin-top: 4vh;
+}
+.WEFY_sText {
+  font-family: "Bad Script", cursive;
+  font-size: 16px;
+}
+.WEFY {
+  font-family: "Bad Script", cursive;
+  font-size: 33px;
+}
+.girl_text {
+  font-size: 16px;
+  font-family: "Jost", sans-serif;
+}
+.price {
+  font-size: 37px;
+  font-family: "Bad Script", cursive;
+  margin-left: 5vw;
+  margin-top: 13vh;
+}
+.textEducation {
+  font-size: 19px;
+}
+.education {
+  font-size: 36px;
+  font-family: "Bad Script", cursive;
+  margin-left: 4vw;
+  margin-top: 10vh;
+}
+.bacground_forma {
+  background-color: #adbbdd;
+  width: 100vw;
+  position: absolute;
+  margin-top: 3vh;
+}
+.volnaC {
+  background-image: url(./images/volna.png);
+  width: 100vw;
+  height: 18vh;
+  margin-top: 14vh;
+}
+.text_sogl {
+  padding-top: 0.3vh;
+  display: flex;
+  justify-content: center;
+  font-size: 17px;
+  font-family: "Jost", sans-serif;
+}
+.how_to_contact {
+  font-family: "Jost", sans-serif;
+  font-size: 31px;
+  color: white;
+  margin-left: 8vw;
+  padding-top: 4vh;
+}
+.contact_text {
+  color: white;
+  margin-right: 8vw;
+  padding-top: 4vh;
+  font-family: "Jost", sans-serif;
+  font-size: 31px;
+}
+input, textarea {
+  background: none;
+  border: none;
+  font-size: 14px;
+  color: white;
+}
+.otpr {
+  font-size: 19px;
+  color: white;
+  font-family: "Jost", sans-serif;
+}
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width: 425px) {
 
 
   .contact,
@@ -813,7 +1305,6 @@ input:focus {
 
 
   .logo_img {
-    margin-left: 38vw;
     margin-top: 13vh;
     width: 26vw;
   }
@@ -853,11 +1344,9 @@ input:focus {
     margin-top: 0;
   }
 
-
   .sad_line {
     display: none;
   }
-
 
   .box {
     width: 63vw;
@@ -908,11 +1397,11 @@ input:focus {
 
   .the_method_box_text_2 {
     border-radius: 69px;
-    margin-top: 15vh;
+    margin-top: 10vh;
     margin-left: 30vw;
     box-shadow: 0px 13px 0px rgb(226, 182, 182);
     background-color: #EAEAEA;
-  }
+}
 
   .the_method_box_text_1 {
     background-color: #EDDADA;
@@ -1019,6 +1508,11 @@ input:focus {
     width: 87vw;
 
   }
+
+  .text_line {
+    display: none;
+  }
+
 
   .text_line_2 {
     display: block;
@@ -1189,6 +1683,7 @@ input:focus {
   }
 
   .girl_text_2_M {
+    display: block;
     font-family: "Jost", sans-serif;
     font-size: 9px;
     margin-left: 9vw;
@@ -1415,23 +1910,44 @@ input:focus {
     height: 16vh;
   }
 
-  .button_burger {
-    display: block;
-    order: none;
-    background: none;
-    border: none;
-  }
-
   .grup {
     display: none;
   }
 
-  .burger_main {
+  .header__burger-btn {
     display: block;
-    display: flex;
-    justify-content: end;
-    padding-top: 3vh;
-    margin-right: 4vw;
   }
 
+  .menu {
+    position: absolute;
+    left: -112.5vw;
+    top: 0;
+    width: 100vw;
+    background-color: #adbbdd;
+    padding: 65px 20px 20px 20px;
+    transition: transform .5s;
+  }
+
+  .menu__list {
+    display: block;
+  }
+
+  .menu__link {
+    color: white;
+    font-size: 21px;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .header.open .menu {
+    transform: translateX(100%);
+  }
+
+  .text_main {
+    color: white;
+  }
+
+  .header__container {
+    display: block;
+  }
 }
