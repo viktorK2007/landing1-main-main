@@ -39,7 +39,21 @@ p {
   background-size: cover;
   height: 100vh;
   width: 100vw;
-  background: url(./images/фон.jpg) center / cover no-repeat;
+  background-image: url(./images/фон.jpg);
+  animation: imj 10s infinite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@keyframes imj {
+  0% {
+    background-image: url(./images/фон.jpg) center / cover no-repeat;
+  }
+
+  50% {
+    background-image: url(./images/andreas-kind-bUhzlj3gGso-unsplash\ 1.png);
+  }
 }
 
 input,
@@ -396,7 +410,7 @@ textarea {
 .the_method_box_text_1 {
   background-color: #f4eeee;
   border-radius: 69px;
-  margin-top: 3vh;
+  margin-top: 6vh;
   margin-left: 4vw;
   position: absolute;
   box-shadow: 16px 13px 0px rgb(198, 191, 206);
@@ -450,7 +464,7 @@ textarea {
 
 .svc_messeng {
   margin-left: 86vw;
-  margin-top: 19vh;
+  margin-top: 16vh;
   height: 11vh;
   width: 11vw;
 }
@@ -459,7 +473,7 @@ textarea {
   box-shadow: -16px 13px 0px rgb(192, 206, 191);
   background-color: #f4eeee;
   border-radius: 69px;
-  margin-top: 14vh;
+  margin-top: 11vh;
   margin-left: 5vw;
   position: absolute;
 }
@@ -1008,6 +1022,79 @@ body {
 
 }
 
+@media (max-width: 1600px) {
+  .the_method_box_text_1 {
+    background-color: #f4eeee;
+    border-radius: 69px;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    position: absolute;
+    box-shadow: 16px 13px 0px rgb(198, 191, 206);
+  }
+
+  .svg_boshka {
+    margin-left: 87vw;
+    margin-top: 6vh;
+    width: 8vw;
+    height: 16vh;
+  }
+
+  .cist {
+    margin-top: 17vh;
+    margin-left: 4vw;
+    height: 17vh;
+    width: 11vw;
+  }
+
+  .gipnoz_2 {
+    font-size: 26px;
+    font-family: "Jost", sans-serif;
+    width: 74vw;
+    padding: 1.5em;
+  }
+
+  .gipnoz_3 {
+    font-size: 26px;
+    font-family: "Jost", sans-serif;
+    padding: 1.5em;
+    width: 74vw;
+  }
+
+  .svc_messeng {
+    margin-left: 86vw;
+    margin-top: 19vh;
+    height: 11vh;
+    width: 11vw;
+  }
+
+  .the_method_box_text_1 {
+    background-color: #f4eeee;
+    border-radius: 69px;
+    margin-top: 3vh;
+    margin-left: 4vw;
+    position: absolute;
+    box-shadow: 16px 13px 0px rgb(198, 191, 206);
+  }
+
+  .the_method_box_text_2 {
+    background-color: #f4eeee;
+    border-radius: 69px;
+    margin-top: 11vh;
+    margin-left: 17vw;
+    position: absolute;
+    box-shadow: 16px 13px 0px rgb(226, 182, 182);
+  }
+
+  .the_method_box_text_3 {
+    box-shadow: -16px 13px 0px rgb(192, 206, 191);
+    background-color: #f4eeee;
+    border-radius: 69px;
+    margin-top: 14vh;
+    margin-left: 5vw;
+    position: absolute;
+  }
+
+}
 
 @media (max-width: 768px) {
   .text {
@@ -1075,19 +1162,21 @@ body {
   }
 
   .text_sad_line {
-    font-size: 31px;
-    text-align: right;
-    width: 61vw;
-    margin-right: 8vw;
+    font-size: 28px;
+    text-align: left;
+    width: 75vw;
+    margin-left: 6vw;
     font-family: "Bad Script", cursive;
-    margin-top: 10vw;
+    margin-top: 4vw;
   }
 
   .subtext_sad_line {
     font-size: 16px;
     text-align: right;
     font-family: "Jost", sans-serif;
+    width: 41vw;
   }
+
 
   .text_title {
     font-size: 37px;
@@ -1121,6 +1210,11 @@ body {
     font-size: 15px;
     font-family: "Jost", sans-serif;
     margin-left: 3vw;
+  }
+
+  .sad_line_flex {
+    margin-right: 1vw;
+    display: block;
   }
 
   .if_you {
@@ -1392,21 +1486,21 @@ body {
   }
 
   .gipnoz_1 {
-    font-size: 10px;
+    font-size: 11px;
     font-family: "Jost", sans-serif;
     width: 49vw;
     padding: 2.5em;
   }
 
   .gipnoz_2 {
-    font-size: 10px;
+    font-size: 11px;
     font-family: "Jost", sans-serif;
     width: 49vw;
     padding: 2.5em;
   }
 
   .gipnoz_3 {
-    font-size: 10px;
+    font-size: 11px;
     font-family: "Jost", sans-serif;
     padding: 2.5em;
     width: 44vw;
@@ -1441,13 +1535,9 @@ body {
     margin-top: 34vh;
   }
 
-  .how_to_contact {
-    display: none;
-  }
+  .how_to_contact {}
 
-  .contact_text {
-    display: none;
-  }
+  .contact_text {}
 
   .sign_up {
     border-radius: 50px;
@@ -1835,7 +1925,6 @@ body {
   }
 
   .button_zap {
-    width: 39vw;
     height: 6.3vh;
     margin-left: 24vw;
     margin-top: 8vh;
@@ -2053,7 +2142,7 @@ body {
     font-family: "Jost", sans-serif;
     width: 52vw;
     padding: 2.5em;
-}
+  }
 
   .gipnoz_2 {
     font-size: 10px;
@@ -2075,7 +2164,7 @@ body {
     border-radius: 69px;
     margin-top: 13vh;
     margin-left: 9vw;
-}
+  }
 
   .the_method_box_text_2 {
     border-radius: 69px;
@@ -2099,11 +2188,12 @@ body {
   }
 
   .how_to_contact {
-    display: none;
+    font-size: 16px;
   }
 
   .contact_text {
-    display: none;
+    font-size: 16px;
+    margin-right: 6vw;
   }
 
   .sign_up {
@@ -2181,7 +2271,7 @@ body {
     display: block;
     width: 44vw;
     margin-left: 6vw;
-}
+  }
 
   .mText_line_2 {
     display: block;
@@ -2492,7 +2582,6 @@ body {
   }
 
   .button_zap {
-    width: 39vw;
     height: 6.3vh;
     margin-left: 24vw;
     margin-top: 8vh;
@@ -2575,14 +2664,14 @@ body {
     margin-top: 22vh;
     height: 11vh;
     width: 23vw;
-}
+  }
 
   .cist {
     margin-top: 18vh;
     margin-left: 4vw;
     height: 17vh;
     width: 19vw;
-}
+  }
 
   .svg_boshka {
     margin-left: 76vw;
