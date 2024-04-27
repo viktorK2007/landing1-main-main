@@ -559,18 +559,15 @@ textarea {
 }
 
 .blok_backgound_1 {
-  width: 30vw;
-  height: 30vh;
   background-color: #ebe0e0;
   border-radius: 60px;
   position: absolute;
   margin-left: 10vw;
+  box-shadow: 14px 0px 0px rgb(128, 160, 208);
 }
 
 .blok_text2 {
   margin-left: 61vw;
-  width: 30vw;
-  height: 30vh;
   background-color: #e3c7ca;
   border-radius: 60px;
   position: absolute;
@@ -578,11 +575,43 @@ textarea {
 
 .blok_backgound_2 {
   margin-left: 60vw;
-  width: 30vw;
-  height: 30vh;
   background-color: #ebe0e0;
   border-radius: 60px;
   position: absolute;
+  box-shadow: 13px 0px 0px rgb(227, 199, 202);
+}
+
+.blok_backgound_2_text2 {
+  font-size: 24px;
+  margin-top: 1vh;
+  width: 30vw;
+}
+
+.blok_backgound_2_text1 {
+  margin-top: 1vh;
+  font-size: 26px;
+  border-bottom: 1px solid gray
+}
+
+.blok_backgound_1_text2 {
+  padding: 1.5em;
+  font-size: 26px;
+  padding-bottom: 2em;
+}
+
+.blok_backgound_1_text1 {
+  padding: 2em;
+  font-size: 26px;
+  border-bottom: 1px solid gray;
+  margin-top: 1vh;
+}
+
+.price_1 {
+  padding: 1em;
+}
+
+.price_2 {
+  width: 26vw;
 }
 
 .blok_1 {
@@ -908,6 +937,7 @@ body {
   margin-top: 14vh;
 
 }
+
 
 @media (max-width: 1440px) {
 
@@ -1831,7 +1861,6 @@ body {
 
   .blok_backgound_1 {
     width: 91vw;
-    height: 26vh;
     background-color: #ebe0e0;
     border-radius: 30px;
     position: absolute;
@@ -1839,31 +1868,58 @@ body {
     box-shadow: 10px 0px 1px rgb(128, 160, 208);
   }
 
+  .blok_backgound_1_text1 {
+    padding: 1em;
+    font-size: 19px;
+    border-bottom: 1px solid gray;
+    margin-top: 1vh;
+  }
+
+  .blok_backgound_1_text2 {
+    padding: 1.5em;
+    font-size: 19px;
+    padding-bottom: 2em;
+  }
+
+  .price_2 {
+    width: 77vw;
+  }
+
   .blok_backgound_2 {
     margin-left: 4vw;
     width: 92vw;
-    height: 26vh;
     background-color: #ebe0e0;
     border-radius: 30px;
     position: absolute;
-    margin-top: 33vh;
+    margin-top: 27vh;
     box-shadow: 10px 0px 1px rgb(226, 199, 202);
   }
+
+  .blok_backgound_2_text2 {
+    font-size: 19px;
+    margin-top: 1vh;
+    width: 77vw;
+}
+.blok_backgound_2_text1 {
+  margin-top: 1vh;
+  font-size: 19px;
+  border-bottom: 1px solid gray;
+}
 
   .V_line {
     position: absolute;
     height: 0vh;
     border-top: 1px solid;
     margin-left: 5vw;
-    margin-top: 65vh;
+    margin-top: 58vh;
     width: 92vw;
   }
 
   .education {
     font-size: 26px;
     font-family: "Bad Script", cursive;
-    margin-left: 25vw;
-    margin-top: 48vh;
+    margin-left: 11vw;
+    margin-top: 59vh;
   }
 
   .textEducation {
@@ -1873,7 +1929,7 @@ body {
   .year_line {
     margin-top: 5.4vh;
     margin-left: 4vw;
-    height: 20vh;
+    height: 12vh;
   }
 
   .bacground_forma {
@@ -1993,7 +2049,7 @@ body {
 
   .educationGrup {
     display: flex;
-    margin-top: 9vh;
+    margin-top: -3vh;
   }
 
   .sogl {
