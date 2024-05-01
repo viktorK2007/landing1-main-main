@@ -190,15 +190,6 @@ textarea {
   position: relative;
 }
 
-/* .box_background {
-  width: 350px;
-  height: 438px;
-  background-color: #c6bfce;
-  border-radius: 20px;
-  margin-left: 4vw;
-  margin-top: 2vh;
-  z-index: 1;
-} */
 
 
 
@@ -438,7 +429,7 @@ textarea {
 
   background-color: #f4eeee;
   border-radius: 69px;
-  margin-top: 11vh;
+  margin-top: 16vh;
   margin-left: 17vw;
   position: absolute;
   box-shadow: 16px 13px 0px rgb(226, 182, 182);
@@ -456,7 +447,7 @@ textarea {
 }
 
 .cist {
-  margin-top: 17vh;
+  margin-top: 21vh;
   margin-left: 4vw;
   height: 17vh;
   width: 11vw;
@@ -464,7 +455,7 @@ textarea {
 
 .svc_messeng {
   margin-left: 86vw;
-  margin-top: 16vh;
+  margin-top: 21vh;
   height: 11vh;
   width: 11vw;
 }
@@ -473,7 +464,7 @@ textarea {
   box-shadow: -16px 13px 0px rgb(192, 206, 191);
   background-color: #f4eeee;
   border-radius: 69px;
-  margin-top: 11vh;
+  margin-top: 16vh;
   margin-left: 5vw;
   position: absolute;
 }
@@ -952,6 +943,20 @@ body {
     height: 36vh;
     width: 5.78vw;
   }
+
+  .the_method_box_text_2 {
+    margin-top: 20vh;
+  }
+
+  .the_method_box_text_3 {
+    margin-top: 20vh;
+  }
+
+  .svc_messeng {}
+
+  .cist {}
+
+
 
 
 }
@@ -1477,7 +1482,7 @@ body {
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 430px) {
 
 
   .contact,
@@ -1506,7 +1511,7 @@ body {
   }
 
   .image_2 {
-    margin-left: 3vw;
+    margin-left: 4vw;
     box-shadow: 9px -6px 1px rgb(198, 191, 206);
     border-radius: 17px;
     width: 33vw;
@@ -1535,7 +1540,7 @@ body {
   .box {
     width: 63vw;
     margin-top: 3vh;
-    margin-left: 5vw;
+    margin-left: 3vw;
   }
 
   .box1 {
@@ -1574,8 +1579,8 @@ body {
     box-shadow: -7px 7px 0px rgb(192, 206, 191);
     background-color: #E3E3E3;
     border-radius: 69px;
-    margin-top: 15vh;
-    margin-left: 9vw;
+    margin-top: 20vh;
+    margin-left: 5vw;
   }
 
   .the_method_box_text_2 {
@@ -1590,7 +1595,7 @@ body {
     background-color: #EDDADA;
     border-radius: 69px;
     margin-top: 3vh;
-    margin-left: 4vw;
+    margin-left: 3vw;
     box-shadow: 0px 10px 0px rgb(198, 191, 206);
   }
 
@@ -1683,8 +1688,9 @@ body {
 
   .mText_line_1 {
     display: block;
-    width: 39vw;
-    margin-left: 6vw;
+    width: 52vw;
+    margin-left: 8vw;
+    margin-top: 7vh;
   }
 
   .text_line_1 {
@@ -1695,8 +1701,8 @@ body {
 
   .mText_line_2 {
     display: block;
-    margin-left: 4vw;
-    margin-top: -1vh;
+    margin-left: 3vw;
+    margin-top: -2vh;
     width: 87vw;
   }
 
@@ -1714,7 +1720,7 @@ body {
   .text_image_3 {
     font-family: "Jost", sans-serif;
     width: 51vw;
-    margin-left: 6vw;
+    margin-left: 3vw;
     font-size: 10px;
   }
 
@@ -1803,7 +1809,7 @@ body {
     position: absolute;
     width: 94vw;
     background-color: #cbd5ca;
-    margin-left: 2vw;
+    margin-left: 3vw;
     margin-top: 10vh;
     border-radius: 20px;
     box-shadow: 6px 3px 4px gray;
@@ -1827,7 +1833,7 @@ body {
   .the_method {
     font-size: 26px;
     font-family: "Bad Script", cursive;
-    margin-left: 6vw;
+    margin-left: 3vw;
   }
 
   .crivaya_line {
@@ -1902,7 +1908,7 @@ body {
   .price {
     font-size: 26px;
     font-family: "Bad Script", cursive;
-    margin-left: 22vw;
+    margin-left: 3vw;
     margin-top: 4vh;
   }
 
@@ -1966,7 +1972,7 @@ body {
   .education {
     font-size: 26px;
     font-family: "Bad Script", cursive;
-    margin-left: 11vw;
+    margin-left: 3vw;
     margin-top: 64vh;
   }
 
@@ -2107,7 +2113,7 @@ body {
 
   .svc_messeng {
     margin-left: 72vw;
-    margin-top: 21vh;
+    margin-top: 29vh;
     height: 11vh;
     width: 23vw;
   }
