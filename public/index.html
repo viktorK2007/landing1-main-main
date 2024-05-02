@@ -621,23 +621,23 @@ initial-scale=1.0">
                     </svg>
 
                     <div class="form_name">
-                        <input type="text" name="name" placeholder="Имя" onfocus="this.placeholder=''">
+                        <input type="text" name="name"  value="Имя" onfocus="if (this.value == 'Имя') {this.value = ''; this.style.color = '#FFFFFF';}" onblur="if (this.value == '') {this.value = 'Имя'; this.style.color = '#FFFFFF';}">
                     </div>
                     <div class="forma_box_flex">
                         <div class="form_phone">
-                            <input type="phone" name="phone" placeholder="Телефон" onfocus="this.placeholder=''">
+                            <input type="phone" name="phone"  value="Телефон" onfocus="if (this.value == 'Телефон') {this.value = ''; this.style.color = '#FFFFFF';}" onblur="if (this.value == '') {this.value = 'Телефон'; this.style.color = '#FFFFFF';}">
                         </div>
                         <div class="form_email">
-                            <input type="email" name="email" placeholder="Электронная почта"
-                                onfocus="this.placeholder=''">
+                            <input type="email" name="email"  value="Электронная почта" onfocus="if (this.value == 'Электронная почта') {this.value = ''; this.style.color = '#FFFFFF';}" onblur="if (this.value == '') {this.value = 'Электронная почта'; this.style.color = '#FFFFFF';}">
                         </div>
                     </div>
                     <div class="form_comment">
-                        <input type="text" name="comment" placeholder="Ваш коментарий" onfocus="this.placeholder=''">
+                        <input type="text" name="comment"  value="Ваш коментарий" onfocus="if (this.value == 'Ваш коментарий') {this.value = ''; this.style.color = '#FFFFFF';}" onblur="if (this.value == '') {this.value = 'Ваш коментарий'; this.style.color = '#FFFFFF';}">
                     </div>
                     <button type="submit" class="button_zap">
                         <p class="otpr">Отправить</p>
                     </button>
+                
 
                 </form>
                 <div class="info">
